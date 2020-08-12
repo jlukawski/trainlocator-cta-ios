@@ -154,8 +154,6 @@ var stations = [
     Station(name: "Wilson", type: .redpurple, id: 40540, latitude: 41.964273, longitude: -87.657588, distance: 0)
 ]
 
-
-
 class Station {
     
     enum `Type`: String {
@@ -197,7 +195,6 @@ class Station {
     }
     
 }
-
 
 //This feeds dummy data into the estimated arrivals table. In reality the CTA requests should go here
 

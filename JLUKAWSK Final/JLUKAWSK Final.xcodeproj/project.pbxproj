@@ -14,7 +14,8 @@
 		410ED7D9241E10AE00FE5994 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 410ED7D8241E10AE00FE5994 /* Assets.xcassets */; };
 		410ED7DC241E10AE00FE5994 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 410ED7DA241E10AE00FE5994 /* LaunchScreen.storyboard */; };
 		410ED7E4241EBF1A00FE5994 /* Stations.swift in Sources */ = {isa = PBXBuildFile; fileRef = 410ED7E3241EBF1A00FE5994 /* Stations.swift */; };
-		413ACEE1241F76DC001F19B0 /* CTA.swift in Sources */ = {isa = PBXBuildFile; fileRef = 413ACEE0241F76DC001F19B0 /* CTA.swift */; };
+		414E4DD124E261F1005785E5 /* DataDecoder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 414E4DD024E261F1005785E5 /* DataDecoder.swift */; };
+		414E4DD324E26200005785E5 /* ArrivalData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 414E4DD224E26200005785E5 /* ArrivalData.swift */; };
 		41EC8DDE241ECDBF009F007E /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41EC8DDD241ECDBF009F007E /* DetailViewController.swift */; };
 /* End PBXBuildFile section */
 
@@ -28,7 +29,8 @@
 		410ED7DB241E10AE00FE5994 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		410ED7DD241E10AE00FE5994 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		410ED7E3241EBF1A00FE5994 /* Stations.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Stations.swift; sourceTree = "<group>"; };
-		413ACEE0241F76DC001F19B0 /* CTA.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CTA.swift; sourceTree = "<group>"; };
+		414E4DD024E261F1005785E5 /* DataDecoder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataDecoder.swift; sourceTree = "<group>"; };
+		414E4DD224E26200005785E5 /* ArrivalData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArrivalData.swift; sourceTree = "<group>"; };
 		41EC8DDD241ECDBF009F007E /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -62,7 +64,6 @@
 		410ED7CE241E10AC00FE5994 /* JLUKAWSK Final */ = {
 			isa = PBXGroup;
 			children = (
-				413ACEE0241F76DC001F19B0 /* CTA.swift */,
 				410ED7CF241E10AC00FE5994 /* AppDelegate.swift */,
 				410ED7D1241E10AC00FE5994 /* SceneDelegate.swift */,
 				410ED7D3241E10AC00FE5994 /* ViewController.swift */,
@@ -72,6 +73,8 @@
 				410ED7D8241E10AE00FE5994 /* Assets.xcassets */,
 				410ED7DA241E10AE00FE5994 /* LaunchScreen.storyboard */,
 				410ED7DD241E10AE00FE5994 /* Info.plist */,
+				414E4DD224E26200005785E5 /* ArrivalData.swift */,
+				414E4DD024E261F1005785E5 /* DataDecoder.swift */,
 			);
 			path = "JLUKAWSK Final";
 			sourceTree = "<group>";
@@ -147,11 +150,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				414E4DD124E261F1005785E5 /* DataDecoder.swift in Sources */,
 				410ED7D4241E10AC00FE5994 /* ViewController.swift in Sources */,
 				410ED7D0241E10AC00FE5994 /* AppDelegate.swift in Sources */,
-				413ACEE1241F76DC001F19B0 /* CTA.swift in Sources */,
 				41EC8DDE241ECDBF009F007E /* DetailViewController.swift in Sources */,
 				410ED7E4241EBF1A00FE5994 /* Stations.swift in Sources */,
+				414E4DD324E26200005785E5 /* ArrivalData.swift in Sources */,
 				410ED7D2241E10AC00FE5994 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -297,7 +301,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = MQ79U7S5FQ;
+				DEVELOPMENT_TEAM = RS7PSX24R2;
 				INFOPLIST_FILE = "JLUKAWSK Final/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -315,7 +319,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = MQ79U7S5FQ;
+				DEVELOPMENT_TEAM = RS7PSX24R2;
 				INFOPLIST_FILE = "JLUKAWSK Final/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
